@@ -27,9 +27,6 @@
     }
   },
   "extra": {
-    "branch-alias": {
-      "dev-master": "2.5.x-dev"
-    },
 	"laravel": {
         "providers": [
             "Betitoglez\\GoogleMaps\\GoogleMapsServiceProvider"
@@ -39,6 +36,5 @@
         }
     }
   },
-  
-  "minimum-stability": "stable"
+  "minimum-stability": "dev"
 }
