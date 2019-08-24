@@ -1,0 +1,44 @@
+{
+  "name": "betitoglez/googlemaps",
+  "description": "Google Maps package for Laravel 5.x",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "gmap",
+    "map",
+    "google",
+    "googlemaps",
+    "gmap"
+  ],
+  "authors": [
+    {
+      "name": "Alberto González",
+      "email": "betitoglez@gmail.com",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "laravel/framework": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Betitoglez\\GoogleMaps\\": "src/betitolez/googlemaps/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.5.x-dev"
+    },
+	"laravel": {
+        "providers": [
+            "Betitoglez\\GoogleMaps\\GoogleMapsServiceProvider"
+        ],
+        "aliases": {
+            "GoogleMaps": "Betitoglez\\GoogleMaps\\Facades\\GoogleMapsFacade"
+        }
+    }
+  },
+  
+  "minimum-stability": "stable"
+}
