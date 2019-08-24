@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Betitoglez\\GoogleMaps\\": "src/betitolez/googlemaps/"
+      "Betitoglez\\GoogleMaps\\": "src/"
     }
   },
   "extra": {
