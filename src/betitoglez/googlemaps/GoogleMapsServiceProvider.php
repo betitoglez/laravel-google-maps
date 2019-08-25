@@ -33,7 +33,7 @@ class GoogleMapsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('GoogleMaps', function ($app) {
+        $this->app->singleton('GoogleMaps', function ($app) {
             return new GoogleMaps();
         });
 
