@@ -22,4 +22,11 @@ class Geocoding extends GoogleMaps
         $response = $this->request(array_merge(['address'=>$address],$additionalParameters));
         return $this->response($response);
     }
+
+    public function getLatLongByComponents ($components,$additionalParameters=[]){
+        $response = $this->request(array_merge(['components'=>$components],$additionalParameters));
+        return $this->response($response);
+    }
+
+
 }
